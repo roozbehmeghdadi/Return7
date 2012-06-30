@@ -1,0 +1,155 @@
+html, body {
+	height:100%;
+	min-height:100%;
+}
+body {
+	background:#171717;
+}
+.container {
+/*	min-height:100%;*/
+	padding:0;
+	background:url(../images/textured_bg.png);
+	
+}
+#twitter_feed {
+	background:#fff;
+	text-align:center;
+	height:24px;
+	line-height:24px;
+}
+#top_bar {
+	padding:24px 0;
+}
+#logo {
+	
+}
+nav {
+	float:right;
+	font-size:16px;
+	line-height:74px;
+}
+nav a {
+	color:#676766;
+	padding:0 14px;
+}
+#featured_wrapper {
+	margin-bottom:128px;
+}
+#featured div {
+	height:420px !important;
+	float:left;
+	border-radius:5px;
+}
+#placetagger {
+	background:url(../images/placetagger.png);
+	color:#fff;
+}
+.details {
+	margin-top:74px;
+	width:90%;
+/*	margin-left:52px;*/
+}
+.details h2 {
+	color:#fff;
+}
+.details p {
+	font-size:16px;
+	line-height:24px;
+}
+#placetagger {
+	background:url(../images/placetagger_bg.png);
+	color:#fff;
+}
+#placetagger .app_img  {
+	background:url(../images/placetagger_iphone_app.png) no-repeat center left;
+}
+#billminder {
+	background:url(../images/billminder_bg.png);
+	color:#fff;
+}
+#billminder .app_img  {
+	background:url(../images/bill_minder_app.png) no-repeat bottom right;
+}
+#debtminder {
+	background:url(../images/billminder_bg.png);
+	color:#fff;
+}
+#debtminder .app_img  {
+	background:url(../images/debtminder_app.png) no-repeat bottom right;
+}
+
+#blipper {
+	background:url(../images/blipper_bg.png);
+	color:#fff;
+}
+#blipper .app_img  {
+	background:url(../images/debt_minder_app.png) no-repeat bottom right;
+}
+#tippy {
+	background:url(../images/tippy_bg.png);
+	color:#fff;
+}
+#tippy .app_img  {
+	background:url(../images/debt_minder_app.png) no-repeat bottom right;
+}
+
+
+
+
+.row .offset-by-eight:first-child {
+margin-left: 66.6% !important;
+}
+#press {
+	background:rgba(0,0,0,0.1);
+	min-height:160px;
+}
+.version_tag {
+	width: 54px;
+	height: 54px;
+	background:url(../images/v2.png);
+	top:0px;
+	right:0px;
+	display:block;
+	position:absolute;
+	text-indent:-99999px;
+}
+
+
+blockquote {
+	text-align:center;
+	width:100%;
+	display:block;
+	border:none;
+}
+.quote {
+	font-size:18px;
+	margin-top:24px;
+	float: left;
+	text-align: center;
+	width: 100%;
+	
+}
+.bqstart {
+    float: left;
+    height: 45px;
+    margin-top: -10px;
+    padding-top: 45px;
+    margin-bottom: -50px;
+    font-size: 700%;
+}
+.bqend {
+    float: right;
+    height: 25px;
+    margin-top: 0px;
+    padding-top: 45px;
+    font-size: 700%;
+}
+
+footer {
+	background:#171717;
+	color:#fff;
+	height:44px;
+	padding-top:24px;
+/*	margin-top:-68px;*/
+/*	height:100%;*/
+}
