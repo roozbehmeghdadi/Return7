@@ -155,3 +155,27 @@ footer {
 /*	margin-top:-68px;*/
 /*	height:100%;*/
 }
+
+
+@media only screen and (max-width: 767px) {
+#twitter_feed {
+	display:none;
+}
+#top_bar {
+	text-align:center;
+}
+#logo {
+	margin:0 auto;
+}
+nav {
+	float:left;
+	width:100%;
+}
+.orbit-wrapper {
+	transform: scale(.5);
+	-ms-transform: scale(.5); /* IE 9 */
+	-webkit-transform: scale(.5); /* Safari and Chrome */
+	-o-transform: scale(.5); /* Opera */
+	-moz-transform: scale(.5); /* Firefox */
+}
+}
