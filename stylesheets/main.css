@@ -71,21 +71,22 @@ nav a {
 }
 
 #placetagger .app_img  {
-	background:url(../images/placetagger_iphone_app.png) no-repeat center left;
+	background:url(../images/placetagger_iphone_app.png) no-repeat 55% center;
 }
 #billminder {
 	background:url(../images/billminder_bg.png);
 	color:#fff;
 }
 #billminder .app_img  {
-	background:url(../images/bill_minder_app.png) no-repeat bottom right;
+	background:url(../images/bill_minder_app.png) no-repeat -55px bottom;
+/*	background-size:95%;*/
 }
 #debtminder {
 	background:url(../images/billminder_bg.png);
 	color:#fff;
 }
 #debtminder .app_img  {
-	background:url(../images/debtminder_app.png) no-repeat bottom right;
+	background:url(../images/debtminder_app.png) no-repeat 65px bottom;
 }
 
 #blipper {
@@ -105,8 +106,6 @@ nav a {
 
 .app_img {
 	width: 60%;
-	background-size: 80%;
-	background-position: 55% center;
 }
 
 
@@ -200,13 +199,15 @@ nav {
 nav a {
 	padding:0 9px;
 }
+#featured div {
+	border-radius:0px;
+}
 .orbit-wrapper {
-
 }
-.quote {
-/*	font-size:14px;*/
+.app_img {
+	display:none;
 }
-blockquote {
-/*	width:88%;*/
-}
+.details {
+	width:80%;
+	margin-left:10%;
 }
