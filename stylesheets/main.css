@@ -9,13 +9,20 @@ body {
 /*	min-height:100%;*/
 	padding:0;
 	background:url(../images/textured_bg.png);
-	
+	width:100%;
+	float:left;
 }
 #twitter_feed {
 	background:#fff;
 	text-align:center;
-	height:24px;
+	min-height:24px;
 	line-height:24px;
+	width:100%;
+	float:left;
+}
+#twitter_feed ul, #twitter_feed ul li {
+	margin:0;
+	padding:0;
 }
 #top_bar {
 	padding:24px 0;
@@ -34,6 +41,8 @@ nav a {
 }
 #featured_wrapper {
 	margin-bottom:128px;
+	float: left;
+	width: 100%;
 }
 #featured div {
 	height:420px !important;
@@ -46,7 +55,7 @@ nav a {
 }
 .details {
 	margin-top:74px;
-	width:90%;
+	width:30%;
 /*	margin-left:52px;*/
 }
 .details h2 {
@@ -60,6 +69,7 @@ nav a {
 	background:url(../images/placetagger_bg.png);
 	color:#fff;
 }
+
 #placetagger .app_img  {
 	background:url(../images/placetagger_iphone_app.png) no-repeat center left;
 }
@@ -93,16 +103,18 @@ nav a {
 	background:url(../images/debt_minder_app.png) no-repeat bottom right;
 }
 
-
+.app_img {
+	width: 60%;
+	background-size: 80%;
+	background-position: 55% center;
+}
 
 
 .row .offset-by-eight:first-child {
 margin-left: 66.6% !important;
 }
-#press {
-	background:rgba(0,0,0,0.1);
-	min-height:180px;
-}
+
+
 .version_tag {
 	width: 54px;
 	height: 54px;
@@ -114,12 +126,23 @@ margin-left: 66.6% !important;
 	text-indent:-99999px;
 }
 
-
+#press {
+	background:rgba(0,0,0,0.1);
+	min-height:180px;
+	float: left;
+	width: 100%;
+}
+#quote {
+	float:left;
+	width:100%;
+}
 blockquote {
 	text-align:center;
 	width:100%;
 	display:block;
 	border:none;
+	padding: 9px 0px 0 0px;
+	height:auto;
 }
 .quote {
 	font-size:18px;
@@ -154,6 +177,9 @@ footer {
 	padding-top:24px;
 /*	margin-top:-68px;*/
 /*	height:100%;*/
+	float: left;
+	width: 100%;
+	text-align:center;
 }
 
 
@@ -175,16 +201,12 @@ nav a {
 	padding:0 9px;
 }
 .orbit-wrapper {
-	transform: scale(.5);
-	-ms-transform: scale(.5); /* IE 9 */
-	-webkit-transform: scale(.5); /* Safari and Chrome */
-	-o-transform: scale(.5); /* Opera */
-	-moz-transform: scale(.5); /* Firefox */
+
 }
 .quote {
-	font-size:14px;
+/*	font-size:14px;*/
 }
 blockquote {
-	width:88%;
+/*	width:88%;*/
 }
 }
