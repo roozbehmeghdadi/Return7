@@ -171,11 +171,20 @@ nav {
 	float:left;
 	width:100%;
 }
+nav a {
+	padding:0 9px;
+}
 .orbit-wrapper {
 	transform: scale(.5);
 	-ms-transform: scale(.5); /* IE 9 */
 	-webkit-transform: scale(.5); /* Safari and Chrome */
 	-o-transform: scale(.5); /* Opera */
 	-moz-transform: scale(.5); /* Firefox */
+}
+.quote {
+	font-size:14px;
+}
+blockquote {
+	width:88%;
 }
 }
