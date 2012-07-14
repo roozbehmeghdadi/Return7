@@ -100,7 +100,7 @@ nav a {
 }
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
 	#billminder .app_img   {
-		background:url(../images/bill_minder_app.png2x.png) no-repeat -55px bottom;
+		background:url(../images/bill_minder_app@2x.png) no-repeat -55px bottom;
 		background-size:622px 368px;
 	}
 }
@@ -118,6 +118,7 @@ nav a {
 #debtminder .app_img  {
 	background:url(../images/debtminder_app.png) no-repeat 65px bottom;
 }
+
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
 	#debtminder .app_img    {
 		background:url(../images/dept_minder_app.png2x.png) no-repeat 65px bottom;
@@ -203,6 +204,17 @@ footer {
 	text-align:center;
 }
 
+@media only screen and (max-width: 1024px) {
+	.orbit-wrapper, .orbit-slide, #featured, #featured div {
+		border-radius:0 !important;
+	}
+	.app_img {
+		background-size:90%;
+	}
+	#debtminder .app_img {
+	background-position: 22px bottom;
+	}
+}
 
 @media only screen and (max-width: 767px) {
 #twitter_feed {
