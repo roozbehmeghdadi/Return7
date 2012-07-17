@@ -19,6 +19,7 @@ body {
 	line-height:24px;
 	width:100%;
 	float:left;
+	font-size:12px;
 }
 #twitter_feed ul, #twitter_feed ul li {
 	margin:0;
@@ -127,6 +128,27 @@ nav a {
 }
 
 
+#billminder_wp7 {
+	background:url(../images/billminder_bg_wp7@2x.png);
+	color:#fff;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+	#billminder_wp7  {
+		background:url(../images/billminder_bg@2x.png);
+		background-size:1024px 420px;
+	}
+}
+#billminder_wp7 .app_img  {
+	background:url(../images/bill_minder_app_wp7.png) no-repeat -25px center;
+}
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+	#billminder .app_img   {
+		background:url(../images/bill_minder_app_wp7@2x.png) no-repeat -25px center;
+		background-size:622px 368px;
+	}
+}
+
+
 .app_img {
 	width: 60%;
 }
@@ -213,6 +235,15 @@ footer {
 	}
 	#debtminder .app_img {
 	background-position: 22px bottom;
+	}
+	#billminder .app_img {
+		background-position: -35px bottom;
+		background-size:99%;
+		
+	}
+	#billminder_wp7 .app_img {
+		background-position: 22px center;
+		
 	}
 }
 
