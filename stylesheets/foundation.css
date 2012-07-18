@@ -1097,6 +1097,7 @@ ul.orbit-bullets li.has-thumb {
     height: 70px;
 	border: 2px solid rgba(0,0,0,.9);
     border-radius:12px;
+	background-size:70px 70px;
 	
 }
 
@@ -1109,6 +1110,7 @@ ul.orbit-bullets li.active.has-thumb {
     background-position: 0 0;
     border: 2px solid #FBAD18;
 	border-radius:12px;
+	background-size:70px 70px;
 }
     
     
