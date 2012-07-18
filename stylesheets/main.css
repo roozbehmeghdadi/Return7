@@ -128,7 +128,7 @@ nav a {
 
 @media all and (-webkit-min-device-pixel-ratio: 1.5) {
 	#debtminder .app_img    {
-		background:url(../images/debt_minder_app.png2x.png) no-repeat 65px bottom;
+		background:url(../images/debtminder_app@2x.png) no-repeat 65px bottom;
 		background-size:428px 372px;
 	}
 }
