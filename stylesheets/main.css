@@ -231,7 +231,20 @@ footer {
 	width: 100%;
 	text-align:center;
 }
-
+#copyright_notice {
+	text-align:left !important;
+	margin-top:18px;
+}
+#form_button {
+	float:right;
+}
+#mce-EMAIL {
+	float:right;
+	border-radius: 5px; 
+	padding: 9px 0 !important;
+	margin: 0 -91px 10px 0 !important;
+	outline: none;
+}
 @media only screen and (max-width: 1024px) {
 	.orbit-wrapper, .orbit-slide, #featured, #featured div {
 		border-radius:0 !important;
@@ -279,4 +292,14 @@ nav a {
 .details {
 	width:80%;
 	margin-left:10%;
+}
+#copyright_notice {
+	text-align:center !important;
+
+}
+#form_button {
+	margin-right:24px !important;
+} 
+#mce-EMAIL {
+	width:90% !important;
 }
